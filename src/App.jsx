@@ -8,11 +8,11 @@ import { Mission } from "./pages/Mission.jsx";
 import { Signin } from "./pages/Signin.jsx";
 
 // React Router
-import { createBrowserRouter, RouterProvider, BrowserRouter, Routes, Route } from "react-router-dom";
+import { createHashRouter, RouterProvider, BrowserRouter, Routes, Route } from "react-router-dom";
 // Styles
 import "./App.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <NavBar />,
     children: [
